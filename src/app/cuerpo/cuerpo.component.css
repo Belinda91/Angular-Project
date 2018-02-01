@@ -1,0 +1,21 @@
+#cabeza{
+    font-family: Courier New, Courier, monospace; 
+    background-color: #E6E6FA 
+}
+
+.topimg{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+#resultados img{
+    width: 200px;
+    height: 300px;
+}
+#maqueta{
+    border: 2px solid black;
+    font-size: 28px;
+    font-style: italic;
+}

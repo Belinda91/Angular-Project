@@ -1,0 +1,16 @@
+<div dstyle="text-align:center">
+  <h1 id="cabeza">
+    ¡Bienvenido a {{ title }}!
+  </h1>
+  <img class="topimg" src="http://www.planetagaming.com/wp-content/uploads/2017/12/Modern-Royale-el-nuevo-desaf%C3%ADo-de-Clash-Royale-Planeta-Gaming.png">
+</div>
+<div id="resultados">
+<h2>Aquí tienes unas pocas cartas de referencia que puedes mirar antes de decidir hacia dónde vas a ir: </h2>
+<div class="container">
+        <div class="row">
+        <div class="col-3 text-center text-string" id="maqueta" *ngFor="let resultado of resultados">{{resultado.name}}
+            <img [routerLink]="['/carta/'+resultado.idName]" src="http://www.clashapi.xyz/images/cards/{{resultado.idName}}.png"/>
+        </div>
+    </div>
+  </div>
+  </div>

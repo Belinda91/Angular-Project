@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    background-color: gray;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+}
+
+#resultados img{
+    width: 200px;
+    height: 300px;
+}
+#maqueta{
+    border: 2px solid black;
+    font-size: 28px;
+    font-style: italic;
+}

@@ -1,0 +1,9 @@
+<h1>Arenas de batalla</h1>
+<p>Aquí puedes ver las diferentes arenas existentes con su nombre e imagen correspondientes:</p>
+    <div id="resultados" class="container">
+        <div class="row">
+        <div class="col-3 text-center text-string" id="maqueta" *ngFor="let resultado of resultados">{{resultado.name}}
+            <img src="http://www.clashapi.xyz/images/arenas/{{resultado.idName}}.png"/>
+        </div>
+    </div>
+    </div>

@@ -1,0 +1,9 @@
+<h1>Mazo aleatorio</h1>
+<p>Aquí puedes generar un mazo aleatorio para poder probar suerte la próxima vez que entres en el juego</p>
+<div id="resultados" class="container">
+        <div class="row">
+        <div class="col-3 text-center text-string" id="maqueta" *ngFor="let resultado of resultados">{{resultado.name}}
+            <img [routerLink]="['/carta/'+resultado.idName]" src="http://www.clashapi.xyz/images/cards/{{resultado.idName}}.png"/>
+        </div>
+    </div>
+    </div>
